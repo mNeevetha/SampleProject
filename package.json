@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "test": "mocha"
+    },
+    "dependencies": {
+        "express": "*",
+        "body-parser": "*",
+        "mongoose": "*",
+        "ejs": "*",
+        "mocha": "^2.4.5",
+        "should": "*",
+        "supertest": "^1.2.0",
+        "expect": "*",
+        "chai": "^3.5.0"
+    }
+}
