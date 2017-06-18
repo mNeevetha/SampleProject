@@ -1,0 +1,65 @@
+@import 'colors';
+
+.query-form {
+  padding: 60px;
+  margin-bottom: -25px;
+}
+
+.query-form_title {
+  color: $blue;
+  font-size: 24px;
+  font-weight: bold;
+
+  .md-caption {
+    color: $dark-gray;
+    letter-spacing: 0.2px;
+    padding-left: 14px;
+  }
+}
+
+.query-form__fields {
+  &.md-grid {
+    padding: 0;
+  }
+}
+
+.query-form_title {
+  color: $blue;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 8px;
+  .md-caption {
+    letter-spacing: 0.2px;
+    padding-left: 14px;
+  }
+}
+
+.query-form_firstName,
+.query-form_lastName,
+.query-form_date-of-birth {
+  .md-text {
+    font-size: 16px;
+  }
+}
+
+.query-form_gender {
+  .md-icon-text{
+    font-size: 16px;
+  }
+}
+
+.query-form_submit {
+  padding-top: 25px;
+  text-align: center;
+  .md-btn {
+    width: 185px;
+    height: 40px;
+  }
+}
+
+.query-form_declaration {
+  border-top: 1px solid lighten($black, 50%);
+  color: lighten($black, 60%);
+  font-size: 10px;
+  padding: 50px 0px 25px 0;
+}

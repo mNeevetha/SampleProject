@@ -1,0 +1,21 @@
+$header-height: 50px;
+
+@keyframes slide-down {
+  0% { top: 0; }
+  100% { top: $header-height; }
+}
+
+@-webkit-keyframes slide-down {
+  0% { top: 0; }
+  100% { top: $header-height; }
+}
+
+@keyframes slide-up {
+  0% { top: $header-height; }
+  100% { top: 0; }
+}
+
+@-webkit-keyframes slide-up {
+  0% { top: $header-height; }
+  100% { top: 0; }
+}

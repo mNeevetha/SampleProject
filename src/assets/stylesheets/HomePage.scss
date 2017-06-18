@@ -1,0 +1,60 @@
+@import 'colors';
+
+.home-page {
+  padding: 60px;
+  box-shadow: 0 0 0 0;
+
+  img {
+    max-width: 125px;
+    float: left;
+  }
+}
+
+.home-page-content {
+  margin-left: 125px;
+
+  &.md-card-text {
+    padding: 0;
+
+    ul {
+      margin: 8px -20px;
+      word-wrap: break-word;
+      width: 590px;
+    }
+  }
+}
+
+.home-page-declare {
+  label {
+    max-width: 450px;
+  }
+}
+
+.md-selection-control-label {
+  font-weight: bold;
+}
+
+.home-page-title {
+  h2 {
+    color: $blue;
+  }
+
+  &.md-card-title--primary {
+    padding: 0 0 0 16px;
+  }
+}
+
+.checkbox {
+  margin: 0 0 0 6px;
+
+  .md-icon {
+    &.material-icons {
+      color: $blue;
+      margin-top: -6px;
+    }
+  }
+}
+
+.md-paper--1 {
+  box-shadow: none !important;
+}

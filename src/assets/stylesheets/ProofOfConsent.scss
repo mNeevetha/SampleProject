@@ -1,0 +1,87 @@
+@import 'colors';
+
+.close-btn {
+  i {
+    background-color: white;
+    color: gray !important;
+    border-radius: 69%;
+  }
+}
+
+.uploaded {
+  width: 230px;
+  overflow: hidden;
+  
+  h2 {
+    font-size: 15px;
+  }
+
+  h3 {
+    font-size: 10px;
+  }
+  
+  img {
+    width: 228px;
+    height: 135px;
+    border: solid 1px $medium-gray;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
+
+  .close-btn {
+    box-shadow: none !important;
+    margin: 0 0 -26px 170px;
+  }
+    
+  .md-btn--hover {
+    background: transparent;
+  }
+}
+
+.file-container {
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.multi-file__upload {
+  width: 100%;
+
+  .md-icon-text:first-child {
+    padding-right: 0;
+    font-weight: bold;
+  }
+
+  .md-background--secondary {
+    background: $white;
+  }
+
+  .md-background--secondary-hover:hover {
+    background: $white;
+  }
+
+  .md-btn--raised {
+    border: 2px solid $blue;
+    box-shadow: none;
+
+  .md-btn--raised-disabled {
+    background: rgba(0, 0, 0, 0.12);
+    color: rgba(0, 0, 0, 0.38) !important;
+  }
+  
+  .md-icon-separator {
+     color: $blue;
+   }
+  }
+
+  label {
+    width: 230px;
+    margin: auto;
+  }
+}
+
+.query-form__upload-file {
+  .md-grid {
+    padding: 8px 0 !important;
+    width: 230px;
+  }
+}
+

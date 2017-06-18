@@ -1,0 +1,19 @@
+@import 'colors';
+
+@import '~react-md/src/scss/react-md';
+
+$md-primary-color: $blue;
+$md-secondary-color: $pink;
+$md-font-family: 'Open Sans';
+
+@include react-md-everything;
+
+body {
+  background: $light-gray;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 12px 0;
+}

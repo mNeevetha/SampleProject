@@ -1,0 +1,66 @@
+@import 'colors';
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
+
+.md-ink-container {
+  border-radius: inherit;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo-align {
+  margin-top: 5px;
+  height: 35px;
+}
+
+.toolbar-group {
+  header {
+    background: $gray94;
+    height: 50px !important;
+    position: relative;
+    z-index: 2;
+ }
+}
+
+.title-align {
+  width: 160px;
+  margin: 10px;
+}
+
+.btn-color {
+  color: $blue !important;
+}
+
+.btn-align {
+  margin-top: 2px !important;
+  padding: 5px 5px !important;
+}
+
+.close-arrow {
+  color: $pink !important;
+}
+
+.drawer__icon {
+  &.md-icon {
+    color: $pink;
+  }
+}

@@ -1,0 +1,48 @@
+@import 'colors';
+@import 'animations';
+
+.app {
+  height: 100vh;
+}
+
+.app__content {
+  margin-top: 50px;
+}
+
+.page-container {
+  background: $white;
+  clear: both;
+  height: 100%;
+  margin: auto;
+  max-width: 900px;
+  width: 65%;
+}
+
+.card {
+  margin: 16px;
+}
+
+.flash-messages {
+  animation: slide-down 0.5s ease;
+  font-family: light;
+  position: fixed;
+  top: 50px;
+  transition: top 500ms ease;
+  width: 100%;
+
+  &.error {
+    background-color: #FFCCCC;
+  }
+
+  &.remove {
+    animation: slide-up 0.5s ease;
+    top: 0;
+  }
+}
+
+.flash-messages__text {
+  color: black;
+  line-height: 24px;
+  padding: 5px 0;
+  text-align: center;
+}

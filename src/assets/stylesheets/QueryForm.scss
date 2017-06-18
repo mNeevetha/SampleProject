@@ -1,0 +1,59 @@
+@import 'colors';
+
+.query-form {
+  background: $white;
+  transform: translateY(50%);
+  width: 420px;
+  height: 430px;
+  padding: 60px 30px;
+  margin: -125px 0 0 165px;
+}
+
+.query-form_firstName,
+.query-form_middleName,
+.query-form_lastName,
+.query-form_date-picker
+ {
+  .md-text {
+    font-size: 16px;
+  }
+}
+
+.query-form_gender {
+  .md-icon-text{
+    font-size: 16px;
+  }
+}
+
+.query-form_phone{
+  .md-floating-label {
+    font-size: 16px;
+  }
+}
+
+
+
+
+.query-form_title {
+  color: $pink;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 8px;
+}
+
+ .query-form_title{
+   .md-caption {
+    letter-spacing: 0.2px;
+    padding-left: 14px;
+}
+ }
+
+ .date-picker{
+   .label{
+     display: inline-block;
+    width: 6em;
+    margin-right: .5em;
+    padding-top: 1.5em;
+
+   }
+ }

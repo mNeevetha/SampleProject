@@ -1,0 +1,56 @@
+@import 'colors';
+
+.md-btn--dialog {
+  margin-top: 30px !important;
+  background-color: transparent !important;
+
+  &.error {
+    color: $pink !important;
+  }
+
+  &.success {
+    color: $blue !important;
+  }
+}
+
+.request-progress_icon {
+  font-size: 72px !important;
+  margin-bottom: 14px;
+  margin-top: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+  &.success {
+    color: $blue !important;
+  }
+
+  &.failure {
+    color: $pink !important;
+  }
+}
+
+.request-progress_line {
+  margin-top: 4px;
+  border-top: 2px solid $medium-gray;
+  width: 21.5%;
+  float: left;
+}
+
+.request-progress_message {
+  position: fixed;
+  margin-top: 30px;
+}
+
+.request-progress_status {
+  width: 8px;
+  height: 8px;
+  margin: 1px;
+  border-radius: 50%;
+  background-color: $medium-gray;
+  float: left;
+
+  &.success {
+    background-color: $pink !important;
+  }
+}
